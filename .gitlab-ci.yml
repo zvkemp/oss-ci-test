@@ -1,0 +1,9 @@
+image: ruby:2.6
+
+before_script:
+  - bundle
+
+rspec:
+  script:
+    bundle exec rspec
+    
